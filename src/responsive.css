@@ -1,0 +1,54 @@
+@media (max-width: 426px) {
+    .portfolio {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .title p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 426px){
+    .form-wrapper{
+        padding:34px 9px;
+        margin-left: -5px;
+    }
+}
+@media (max-width: 775px){
+    .contact-info-sec{
+        margin-top: 53px;
+    }
+}
+
+@media (max-width: 426px){
+    .main-info h3{
+        padding-left: 8px;
+        font-size: 20px;
+    }
+    .main-info h1{
+        font-size: 48px;
+    }
+    .main-info h3:before{display: none}
+    .typed-style{
+        font-size: 1.4375rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .profile-img{display: none}
+    .header-wrapper{
+        width: 103%;
+        /*height: 47vh;*/
+    }
+
+}
+
+@media (min-width: 425px){
+    .about-wrapper{
+
+    }
+}
+
+@media (max-width: 1063px){
+    .skill-title{display: none}
+}
