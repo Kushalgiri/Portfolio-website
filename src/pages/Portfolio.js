@@ -1,10 +1,9 @@
-import React,{useState} from 'react';
+import React from 'react';
 import portfolio from "../components/PortfolioData"
 import MenuItem from "../components/MenuItem";
 
 
 const Portfolio = () => {
-    const [menuItems, setMenuItems] = useState(portfolio);
 
     return (
         <div className="portfolio-main" id="portfolio">
@@ -17,7 +16,7 @@ const Portfolio = () => {
             </div>
 
             <div className="menu">
-                <MenuItem menuItem={menuItems}/>
+                <MenuItem menuItem={portfolio}/>
             </div>
         </div>
         </div>

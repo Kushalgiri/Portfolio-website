@@ -46,12 +46,16 @@ nav ul li {
 }
 
 .navbar-brand {
-    color: #ff023e;
+    color: #ff023e !important;
     font-weight: bolder;
+}
+.navbar-brand:hover{
+    cursor: pointer;
 }
 
 
-/*------------------- Header -------------------*/
+
+    /*------------------- Header -------------------*/
 .header-wrapper {
     overflow: hidden;
     position: relative;
@@ -134,6 +138,7 @@ nav ul li {
 }
 
 .btn-style:hover {
+    cursor: pointer;
     background-color: #ff023e;
     color: #eef2f3;
     text-decoration: none;
@@ -163,7 +168,7 @@ nav ul li {
 }
 
 .about-des {
-    padding: 0px 40px;
+    padding: 0 40px;
 }
 
 .about-des p {
@@ -417,10 +422,10 @@ h2.skill-title:before {
     color: #00000073;
 }
 
-.menu-info > h5:hover {
-    color: #037fff;
-    cursor: pointer;
-}
+/*.menu-info > h5:hover {*/
+/*    color: #037fff;*/
+/*    cursor: pointer;*/
+/*}*/
 
 
 /*--------------- Contact --------------*/
@@ -439,20 +444,20 @@ h2.skill-title:before {
 .form-wrapper {
     background-color: #f7f9ff;
     padding: 60px 50px;
-    box-shadow: 2px 10px 35px 0px #a69e9e70;
+    box-shadow: 2px 10px 35px 0 #a69e9e70;
     border-radius: 10px;
 }
 
 .f-cont-wrap > div > input {
     background: transparent;
-    border: 0px;
+    border: 0;
     border-bottom: 1px solid #3e4455;
-    border-radius: 0px;
+    border-radius: 0;
     margin-bottom: 25px;
     padding: 23px 0;
     font-size: 14px;
     color: #3e4455;
-    outline: 0px;
+    outline: 0;
     box-shadow: none;
     transition: all .3s ease-in-out;
 }
@@ -487,13 +492,13 @@ h2.skill-title:before {
 
 
 .contact-info > ul {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-info > ul > li {
     position: relative;
-    margin: 0px 0px 12px 0px;
+    margin: 0 0 12px 0;
     padding-left: 40px;
     list-style: none;
     font-size: 18px;
@@ -509,7 +514,7 @@ h2.skill-title:before {
     content: "";
     position: absolute;
     top: 50%;
-    left: 0px;
+    left: 0;
     width: 17px;
     height: 1px;
     background: #222120;

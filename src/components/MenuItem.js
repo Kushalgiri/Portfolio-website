@@ -17,7 +17,7 @@ const MenuItem = ({menuItem}) => {
                         <h5>
                             {item.title}
                         </h5>
-                        <p>Placeholder param</p>
+                        {/*<p>{item.description} </p>*/}
 
                     </div>
 

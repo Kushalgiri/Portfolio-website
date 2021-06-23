@@ -4,52 +4,40 @@ import {FaGithub} from "react-icons/fa";
 const portfolios = [
     {
         id:1,
-        category:'animation',
-        link:'www.github.com',
+        category:'React JS',
+        link:'https://github.com/Kushalgiri/Portfolio-website',
         icon:<FaGithub/>,
         image: img1,
-        title:'kushal giri portfolio'
+        title:'Portfolio website',
+        // description:'This is a responsive website built in React JS'
     },
     {
-        id:1,
+        id:2,
         category:'Web Develop',
-        link:'www.github.com',
+        link:'https://github.com/Kushalgiri/Intern',
         icon:<FaGithub/>,
         image: img1,
-        title:'kushal giri portfolio'
+        title:'Book Finder',
+        // description:'This project displays book from json file and can be searched using search bar according to their categories'
     },
     {
-        id:1,
-        category:'React Login Page',
-        link:'www.github.com',
+        id:3,
+        category:'Web Develop',
+        link:'https://github.com/Kushalgiri/Food-Search',
         icon:<FaGithub/>,
         image: img1,
-        title:'kushal giri portfolio'
+        title:'Food Searcher'
     },
+
     {
-        id:1,
-        category:'Drama',
-        link:'www.github.com',
+        id:4,
+        category:'React JS',
+        link:'https://github.com/Kushalgiri/LoginPage-React',
         icon:<FaGithub/>,
         image: img1,
-        title:'kushal giri portfolio'
+        title:'Login Page'
     },
-    {
-        id:12,
-        category:'Java',
-        link:'www.github.com',
-        icon:<FaGithub/>,
-        image: img1,
-        title:'THis is  a JavaOroject'
-    },
-    {
-        id:1,
-        category:'HTML',
-        link:'www.github.com',
-        icon:<FaGithub/>,
-        image: img1,
-        title:'this is a HTML'
-    },
+
     
 ]
 

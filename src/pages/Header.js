@@ -1,8 +1,8 @@
 import React from "react";
+import {Link} from "react-scroll";
 import picture from "../image/img2.png";
 import Typed from "react-typed";
 import ParticleCustomize from "../components/particle/ParticleCustomize";
-
 
 const Header = () => {
     return (
@@ -26,12 +26,12 @@ const Header = () => {
                                 backSpeed={60}
                                 loop
                             />
-                            <a href="#contact" className="btn-style">Contact me</a>
+                            <Link to="contact" className="btn-style">Contact me</Link>
                         </div>
                     </div>
                     {/*col 8 ends*/}
                     <div className="col-md-4">
-                        <img src={picture} alt="image" className="profile-img"/>
+                        <img src={picture} alt="" className="profile-img"/>
                     </div>
                     {/*col 4 ends*/}
                 </div>
